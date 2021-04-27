@@ -20,7 +20,6 @@ def retrieve_ex_data():
     #  Retrieves exchanges baselist from the database as a DataFrame.
     db_curs.execute('SELECT mic FROM ex_baselist')
     ex_baselist = pd.DataFrame(data=db_curs.fetchall(), columns=['mic'])
-    # print(ex_baselist)
 
     #  Calls IEX Cloud API and retrieves their list of international exchanges details as a DataFrame.
     df_ex_details = pd.DataFrame(iex_api.internationalExchangesDF())
