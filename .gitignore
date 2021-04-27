@@ -1,6 +1,6 @@
 screener/apis/tokens.py
-screener\__pycache__
-screener\apis\__pycache__
-screener\databases\__pycache__
-screener\databases\data.db
+screener/__pycache__
+screener/apis/__pycache__
+screener/databases/__pycache__
+screener/databases/data.db
 tradfi_screener.code-workspace
